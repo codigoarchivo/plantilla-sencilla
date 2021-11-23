@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    
+    <!-- linked css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <header class="header">
+        <nav>
+            <ul id="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SALES</a></li>
+                <li><a href="#">MESSAGES</a></li>
+                <li><a href="#">FORUM</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">WISHLIST</a></li>
+                <li><a href="#">RESOURCES</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <!-- svg icon -->
+                    <svg onclick="change()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                        viewBox="0 0 50 50" style=" fill:#ffffff;">
+                        <path
+                            d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                        </path>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+        <!-- welcome -->
+        <main>
+            <ul class="parent">
+                <li>
+                    <h4>WELCOME, </h4>
+                </li>
+            </ul>
+        </main>
+    </header>
+
+    <section class="full-page">
+        <div class="main-section">
+            <!-- categoria -->
+            <ul>
+                <li>
+                    <h5>CATEGORY BROWSER</h5>
+                </li>
+                <li><a href="#">CATEGORY 1</a></li>
+                <li><a href="#">CATEGORY 2</a></li>
+                <li><a href="#">CATEGORY 3</a></li>
+                <li><a href="#">CATEGORY 4</a></li>
+                <li><a href="#">CATEGORY 5</a></li>
+                <li><a href="#">CATEGORY 6</a></li>
+                <li><a href="#">CATEGORY 7</a></li>
+                <li><a href="#">CATEGORY 8</a></li>
+                <li><a href="#">CATEGORY 9</a></li>
+                <li><a href="#">CATEGORY 10</a></li>
+                <li><a href="#">CATEGORY 11</a></li>
+                <li><a href="#">CATEGORY 12</a></li>
+            </ul>
+            <!-- advanced search -->
+            <div class="filter-parent">
+                <div class="filter-child">
+                    <h5>ADVANCED SEARCH</h5>
+                </div>
+            </div>
+        </div>
+        <div class="listed-parent">
+            <!-- search -->
+            <h5>QUICK SEARCH</h5>
+            <form class="search-bar">
+                <input id="input-bar" type="text" placeholder="Search..." name="search">
+                <button id="input-btn" type="submit">SEARCH</button>
+            </form>
+            <!-- featured listings -->
+            <div class="feature-header">
+                <h5>FEATURED LISTINGS</h5>
+                <div class="listed-item-border">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

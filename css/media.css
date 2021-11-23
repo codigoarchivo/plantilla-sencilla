@@ -1,0 +1,188 @@
+@media only screen and (min-width: 65.25em) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (max-width: 64em) {
+  html {
+    font-size: 68.75%;
+  }
+  .parent li h4 {
+    font-size: 2rem;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    padding: 0rem;
+  }
+
+  /* header nav */
+
+  .header nav {
+    height: 13vh;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+  }
+  .header nav ul:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 47rem;
+    height: 60vh;
+    width: 45%;
+    z-index: 1;
+
+    transition: all ease 0.3s;
+  }
+
+  .header nav ul:nth-child(1) li {
+    margin: 1.3rem 0;
+  }
+  .header nav ul:nth-child(1) li a {
+    font-size: 2rem;
+  }
+  .header nav ul:nth-child(2) {
+    display: block;
+    position: absolute;
+  }
+  .header nav ul:nth-child(2) li svg {
+    display: block;
+    position: absolute;
+    right: 44px;
+    height: 5rem;
+    margin: auto 0;
+    cursor: pointer;
+  }
+  /* toggle */
+
+  .toggle {
+    margin-left: 100%;
+    opacity: 0;
+  }
+
+  /* parent */
+
+  .parent {
+    height: 35vh;
+  }
+
+  /* full-page */
+
+  .full-page .listed-parent .search-bar {
+    width: 100%;
+  }
+  .full-page .listed-parent .search-bar button {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 26.5625em) {
+  html {
+    font-size: 30%;
+  }
+
+  /* header nav */
+
+  .header nav ul {
+    height: 7rem;
+  }
+  .header nav ul:nth-child(1) {
+    margin-top: 62rem;
+    width: 60%;
+  }
+  .header nav ul:nth-child(1) li a {
+    font-size: 2.5rem;
+  }
+  .header nav ul:nth-child(1) {
+    height: 45vh;
+  }
+  .header nav ul:nth-child(2) li svg {
+    right: 20px;
+    height: 33px;
+  }
+
+  /* parent */
+
+  .parent li h4 {
+    font-size: 3rem;
+  }
+  .parent {
+    height: 30vh;
+  }
+
+  /* full-page */
+
+  .full-page {
+    flex-direction: column;
+  }
+  .full-page .main-section {
+    width: 100%;
+  }
+  .full-page .main-section h5 {
+    font-size: 2.6rem;
+  }
+  .full-page .main-section li a {
+    font-size: 2.6rem;
+  }
+  .full-page .listed-parent h5 {
+    font-size: 2.6rem;
+  }
+  .full-page .listed-parent {
+    width: 100%;
+  }
+  .full-page .listed-parent .feature-header .listed-item-border {
+    height: 30vh;
+    margin: 3rem;
+  }
+  .full-page .listed-parent .search-bar {
+    padding: 3rem 1rem;
+  }
+  .full-page .main-section .filter-parent {
+    margin-bottom: 6rem;
+  }
+}
+@media only screen and (max-width: 20em) {
+
+  /* header nav */
+
+  .header nav {
+    height: 10vh;
+  }
+  .header nav ul {
+    height: 6rem;
+  }
+  .header nav ul:nth-child(1) li {
+    margin: 1.7rem 0;
+  }
+  .header nav ul:nth-child(2) li svg {
+    height: 28px;
+  }
+
+  /* parent */
+
+  .parent {
+    height: 25vh;
+  }
+  .parent li {
+    width: 45%;
+  }
+
+  /* full-page */
+  
+  .full-page .listed-parent .feature-header .listed-item-border {
+    height: 20vh;
+  }
+  .full-page .listed-parent .search-bar input {
+    width: 100%;
+  }
+  .full-page .listed-parent .search-bar button {
+    margin-top: 1rem;
+  }
+}

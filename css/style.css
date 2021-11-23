@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  border-color: #e1e0e4;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+/* header nav */
+
+.header nav {
+  background-color: dimgray;
+  height: 18vh;
+  width: 100%;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+
+  display: flex;
+  align-items: center;
+}
+.header nav ul {
+  background-color: #4a4e51;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 100%;
+  padding: 1.68rem 1.5rem;
+}
+.header nav ul li svg {
+  display: none;
+}
+.header nav ul li a:hover {
+  text-shadow: 3px 3px 20px #f4f4f4, -2px 1px 30px #f4f4f4;
+  background-color: white;
+  background-color: dimgray;
+}
+
+/* parent */
+
+.parent {
+  width: 100%;
+  background-color: white;
+  height: 50vh;
+  list-style: none;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.parent li {
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  border-color: #444444;
+  background-color: white;
+  border-radius: 2px;
+  width: 35%;
+  height: 14rem;
+  margin: 4rem 2rem;
+}
+.parent li h4 {
+  color: #5d6164;
+  font-size: 1.6rem;
+  padding: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* full-page */
+
+.full-page {
+  display: flex;
+  height: auto;
+}
+.full-page .main-section {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+}
+.full-page .main-section .filter-parent {
+  border: 1px solid #e1e0e4;
+  background-color: white;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  padding: 0.5rem 0;
+  margin-top: 2rem;
+  height: 35rem;
+}
+.full-page .main-section h5 {
+  font-family: "Times New Roman", Times, serif;
+  border-color: #e1e0e4;
+  background-color: #ededed;
+  color: #5d6164;
+  font-size: 1.6rem;
+  padding: 1.5rem 0rem;
+  width: 90%;
+  margin: 3rem auto;
+}
+.full-page .main-section ul {
+  border: 1px solid #e1e0e4;
+  background-color: white;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  padding: 0.5rem 0;
+}
+.full-page .main-section li {
+  margin: 2rem 0;
+}
+.full-page .main-section li a {
+  color: #5d6164;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.full-page .listed-parent {
+  border-color: #e1e0e4;
+  background-color: #ededed;
+  width: 70%;
+  text-align: center;
+}
+.full-page .listed-parent h5 {
+  font-family: "Times New Roman", Times, serif;
+  color: #5d6164;
+  font-size: 1.7rem;
+  margin: 4rem auto;
+}
+.full-page .listed-parent .search-bar {
+  background-color: white;
+  padding: 2rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.full-page .listed-parent .search-bar input {
+  padding: 1rem 1.5rem;
+  width: 70%;
+}
+.full-page .listed-parent .search-bar input:focus {
+  outline: none;
+}
+.full-page .listed-parent .search-bar button {
+  color: dimgray;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.full-page .listed-parent .feature-header .listed-item-border {
+  background-color: white;
+  border-color: #e3e6e6;
+  height: 65rem;
+  margin: 2rem;
+}
